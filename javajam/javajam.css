@@ -45,11 +45,11 @@ header a:link {
 }
 
 header a:visited {
-    color: #231814
+    color: #231814;
 }
 
 header a:hover {
-    color: #FEF6C2
+    color: #FEF6C2;
 }
 
 h1 {
@@ -58,7 +58,7 @@ h1 {
 }
 
 h2 {
-    color: #8C3826
+    color: #8C3826;
 }
 
 h3, dt {
@@ -90,15 +90,15 @@ nav a {
 }
 
 nav a:link {
-    color: #FEF6C2
+    color: #FEF6C2;
 }
 
 nav a:visited {
-    color: #D2B48C
+    color: #D2B48C;
 }
 
 nav a:hover {
-    color: #CC9933
+    color: #CC9933;
 }
 
 nav ul {
@@ -112,6 +112,11 @@ main {
 	margin-left: 200px;
     overflow: auto;
     padding: 0 0 2em 0;
+}
+
+main h2, h3, h4, p, div, ul, dl {
+	padding-left: 3em;
+	padding-right: 2em;
 }
 
 .details {
@@ -135,6 +140,7 @@ img {
     max-width: 100%;
     height: auto;
 }
+
 #homehero {
     height: 300px;
     background-image: url(images/hero.jpg);
