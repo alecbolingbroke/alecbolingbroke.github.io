@@ -6,7 +6,10 @@ body {
     background: #ffffff;
     font-family: 'Montserrat', sans-serif;
 }
-
+.footer .gcse-search {
+    position: absolute;
+    top: 50%;
+}
 h1,
 h2, 
 h3, 
@@ -248,7 +251,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 120px 0 0 0;
     overflow: hidden;
-    background: linear-gradient(rgba(239, 35, 60, .95), rgba(239, 35, 60, .95)), url(../img/hero-bg.jpg);
+    background: linear-gradient(rgb(221, 203, 157), rgb(248,228,181)), url(../img/hero-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
