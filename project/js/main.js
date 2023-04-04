@@ -104,6 +104,11 @@
         $(this).addClass('filter-active');
         portfolioIsotope.isotope({filter: $(this).data('filter')});
     });
+
     
 })(jQuery);
 
+  // Last Modified 
+document.getElementById("dateupdate").innerHTML = "Page Updated " + document.lastModified;
+
+  
