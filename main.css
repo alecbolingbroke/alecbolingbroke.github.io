@@ -18,7 +18,7 @@ body {
 
 header {
 	background-color: #011946;
-	padding: 10px 20px;
+	padding: 10px 10px;
 }
 
 footer, main, nav {
@@ -127,4 +127,16 @@ p {
 	padding-bottom: 10px;
 }
 
+@media (max-width: 991.98px) { 
+	header {
+		background-color: #011946;
+		padding: 0px 0px;
+	}
+
+	#mainLogo {
+		padding-top: 20px;
+		height: 80px;
+		filter: invert(100%);
+	}
+}
 /* end */
