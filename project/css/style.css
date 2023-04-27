@@ -123,6 +123,7 @@ a:focus {
     right: 15px;
     bottom: 15px;
     z-index: 9;
+    background-color: #ffffff;
 }
 
 .back-to-top i {
