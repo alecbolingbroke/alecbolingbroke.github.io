@@ -43,7 +43,7 @@ nav, footer {
 
 #mainLogo {
 	height: 80px;
-	filter: invert(1);
+	filter: invert(100%);
 }
 
 #mainContent {
