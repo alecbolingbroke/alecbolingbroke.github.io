@@ -32,7 +32,7 @@ nav, footer {
 
 #pageHeader {
 	display: grid;
-	grid-template-columns: .2fr 1.8fr 1fr;
+	grid-template-columns: .1fr 1.9fr 1fr;
 	grid-area: header;
 	position: sticky;
 	top: 0;
